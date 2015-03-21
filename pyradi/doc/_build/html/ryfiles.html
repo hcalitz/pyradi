@@ -233,7 +233,7 @@ function supports a local or network reachable filesystem, but not URLs.</div></
 
 <dl class="function">
 <dt id="pyradi.ryfiles.readRawFrames">
-<tt class="descclassname">pyradi.ryfiles.</tt><tt class="descname">readRawFrames</tt><big>(</big><em>fname</em>, <em>rows</em>, <em>cols</em>, <em>vartype</em>, <em>loadFrames=</em><span class="optional">[</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#pyradi.ryfiles.readRawFrames" title="Permalink to this definition">¶</a></dt>
+<tt class="descclassname">pyradi.ryfiles.</tt><tt class="descname">readRawFrames</tt><big>(</big><em>fname</em>, <em>rows</em>, <em>cols</em>, <em>vartype</em>, <em>loadFrames=[]</em><big>)</big><a class="headerlink" href="#pyradi.ryfiles.readRawFrames" title="Permalink to this definition">¶</a></dt>
 <dd><p>Loading multi-frame two-dimensional arrays from a raw data file of known data type.</p>
 <blockquote>
 <div>The file must consist of multiple frames, all with the same number of rows and columns.
@@ -424,7 +424,8 @@ x6 v61 v62 v63 v64
 <tt class="descclassname">pyradi.ryfiles.</tt><tt class="descname">downloadFileUrl</tt><big>(</big><em>url</em>, <em>saveFilename=None</em><big>)</big><a class="headerlink" href="#pyradi.ryfiles.downloadFileUrl" title="Permalink to this definition">¶</a></dt>
 <dd><p>Download a file, given a URL.</p>
 <p>The URL is used to download a file, to the saveFilename specified.
-If no saveFilename is given, the basename of the URL is used.</p>
+If no saveFilename is given, the basename of the URL is used.
+Before doownloading, first test to see if the file already exists.</p>
 <dl class="docutils">
 <dt>Args:</dt>
 <dd><div class="first last line-block">
@@ -594,7 +595,7 @@ and exists in the local file system.</p>
     </div>
     <div class="footer">
         &copy; Copyright 2012, CJ Willers.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.2.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.3.
     </div>
   </body>
 </html>
