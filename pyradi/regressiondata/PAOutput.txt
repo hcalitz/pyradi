@@ -1,0 +1,13 @@
+SignalPhotonRateIrradiance, 7.17961e+15, 8.52308e+31
+signalphotonRateIrradianceNU, 7.17945e+15, 8.52384e+31
+signalelectronRateIrradiance, 5.74356e+15, 5.45526e+31
+SignalelectronRate        , 1.43589e+05, 3.40954e+10
+signallightelectrons      , 1.43589e+03, 3.40954e+06
+signalDark                , 4.12469e+01, 1.38377e+03
+source_follower_noise     , 2.02645e-02, 3.73377e+01
+SignalElectrons           , 1.47666e+03, 3.41085e+06
+voltagebeforeSF           , 3.09262e+00, 8.52784e-05
+voltagebeforecds          , 3.09262e+00, 8.52817e-05
+voltagebeforeadc          , 3.09262e+00, 8.52817e-05
+SignalVoltage             , 7.38166e-03, 8.52817e-05
+SignalDN                  , 3.02424e+02, 1.43058e+05
